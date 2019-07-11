@@ -2,45 +2,45 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" href="" />
+		<link rel="icon" href="img/favicon.ico" />
 		<title>list IT - Login</title>
 	</head>
 	<body>
-			<div><a href="">list IT</a></div>
-		<div>
+			<header><a href="index.html">list IT</a></header>
+		<nav>
 			<ul>
-				<li><a href="#">Login</a></li>
-				<li><a href="">Register</a></li>
+				<li><a href="login.html">Login</a></li>
+				<li><a href="register.html">Register</a></li>
 			</ul>
-		</div>
-		<div>
+		</nav>
+		<section>
 			<h1>list IT</h1>
-			<h2>lists made easy <img /></h2>
-		</div>
-		<div>
+			<h2>lists made easy <img src="img/logo.png" alt="list logo"/></h2>
+		</section>
+		<section>
 			<h2>Login</h2>
 			<ol>
-				<li><a href="">Home</a></li>
+				<li><a href="index.html">Home</a></li>
 				<li>Login</li>
-				<li><a href="">Register</a></li>
+				<li><a href="register.html">Register</a></li> 
 			</ol>
-		</div>
-		<form action="">
-			<div>User Name:</div>
-			<div><input type="text" /></div>
-			<div>Password:</div>
-			<div><input type="password" /></div>
-			<div><input type="checkbox"> Remember me</div>
-			<div>
+		</section>
+		<form name="form1" action="list_manager.html" method="POST">
+			<label for="userName">User Name:</label><br>
+			<input type="text" id="userName" name="userName" />
+			<label for="userPassword">Password:</label><br>
+			<input type="password" id="userPassword" name="userPassword" />
+			<input type="checkbox" name="userName" value="userPassword"> Remember me<br />
+			
 				<a href="index.html">Cancel</a>
 				<button type="submit">Submit</button>
-			</div>
+		
 		</form>
-		<div>
+		<section>
 			<h4>Don't have an account yet?</h4>
 			<p>An account is required to use this site so we are able to differentiate user data.</p>
-			<a href="">Register</a>
-		</div>
+			<a href="register.html">Register</a>
+		</section>
 		<div>
 			<hr />
 			<p>&copy; list IT 2019</p>
